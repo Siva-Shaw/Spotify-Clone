@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" sizes="32x32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="hamburgur">
+            <img class="invert" src="images/hamburgur.svg" alt="">
+        </div>
+        <nav>
+            <img id="logo" class="invert" src="images/iconmonstr-spotify-3.svg" alt="">
+            <img id="homeIcon" class="invert" src="images/homeIcon.svg" alt="">
+            <input type="text" placeholder="Search">
+        </nav>
+        <ul>
+            <li>Sign up</li>
+            <li>Log in</li>
+        </ul>
+
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="para1">
+                <h3><b>Your Library</b></h3>
+            </div>
+            <div class="songList">
+               <ol>
+               </ol>
+            </div>
+            <div class="grid">
+                <div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety & Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <section>
+                <div class="section1">
+                    <h2><b>Spotify Playlist</b></h2>
+                    <div class="cardCollections">
+                    </div>
+                </div>
+            </section>
+            <div class="playbar">
+                <div class="songInfo">
+                </div>
+                <div class="seekbar">
+                    <div class="circle">
+                    </div>
+                </div>
+                <div class="images">
+                <img class="invert img" id="previous" src="images/previous.svg"alt="" width="24">
+                <img class="invert img" id="play" src="images/play.svg" alt="" width="24">
+                <img class="invert img" id="next" src="images/next.svg" alt="" width="24">
+                </div>
+            <div class="songTime"></div>
+    </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
